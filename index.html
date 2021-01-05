@@ -1,13 +1,1232 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Flexibe.app</title>
-    <meta charset="utf-8" />
-  </head>
+<html lang="en-US">
 
-  <body>
-    <h1>
-      <a href="support/index.html">Support Page</a>
-    </h1>
-  </body>
+<head><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+		<title>Flexibe app &#8211; We&#039;ve got your back</title>
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="Flexibe app &raquo; Feed" href="./feed/index.html">
+<link rel="alternate" type="application/rss+xml" title="Flexibe app &raquo; Comments Feed" href="./comments/feed/index.html">
+
+<script type="text/javascript" data-cfasync="false">
+    (window.gaDevIds=window.gaDevIds||[]).push("dZGIzZG");
+	var mi_version         = '7.14.0';
+	var mi_track_user      = true;
+	var mi_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-173957491-1';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+
+	if ( 'undefined' === typeof gaOptout ) {
+		function gaOptout() {
+			__gaTrackerOptout();
+		}
+	}
+	
+	if ( mi_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+		__gaTracker('create', 'UA-173957491-1', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('require', 'displayfeatures');
+		__gaTracker('require', 'linkid', 'linkid.js');
+		__gaTracker('send','pageview');
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+					})();
+		}
+</script>
+
+<link rel="stylesheet" id="wp-block-library-css" href="./wp-includes/css/dist/block-library/style.min.css?ver=5.5.3" type="text/css" media="all">
+<link rel="stylesheet" id="nsc_bar_nice-cookie-consent-css" href="./wp-content/plugins/beautiful-and-responsive-cookie-consent/public/cookieNSCconsent.min.css?ver=6" type="text/css" media="all">
+<link rel="stylesheet" id="monsterinsights-popular-posts-style-css" href="./wp-content/plugins/google-analytics-for-wordpress/assets/css/frontend.min.css?ver=7.14.0" type="text/css" media="all">
+<link rel="stylesheet" id="hfe-style-css" href="./wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.5.4" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-icons-css" href="./wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.9.1" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-animations-css" href="./wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.0.15" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-frontend-legacy-css" href="./wp-content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.0.15" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="./wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.0.15" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-6-css" href="./wp-content/uploads/elementor/css/post-6.css?ver=1608596575" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-global-css" href="./wp-content/uploads/elementor/css/global.css?ver=1608596576" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-5-css" href="./wp-content/uploads/elementor/css/post-5.css?ver=1608596576" type="text/css" media="all">
+<link rel="stylesheet" id="hfe-widgets-style-css" href="./wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.5.4" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-279-css" href="./wp-content/uploads/elementor/css/post-279.css?ver=1608596576" type="text/css" media="all">
+<link rel="stylesheet" id="neve-style-css" href="./wp-content/themes/neve/style.min.css?ver=2.8.3" type="text/css" media="all">
+<style id="neve-style-inline-css" type="text/css">
+.header-menu-sidebar-inner li.menu-item-nav-search { display: none; }
+ .container{ max-width: 748px; } .has-neve-link-hover-color-color{ color: #0366d6!important; } .has-neve-link-color-color{ color: #0366d6!important; } .has-neve-text-color-color{ color: #404248!important; } .has-neve-button-color-color{ color: #0366d6!important; } .has-neve-link-color-background-color{ background-color: #0366d6!important; } .has-neve-link-hover-color-background-color{ background-color: #0366d6!important; } .has-neve-button-color-background-color{ background-color: #0366d6!important; } .has-neve-text-color-background-color{ background-color: #404248!important; } .alignfull > [class*="__inner-container"], .alignwide > [class*="__inner-container"]{ max-width:718px;margin:auto } .button.button-primary, button, input[type=button], .btn, input[type="submit"], /* Buttons in navigation */ ul[id^="nv-primary-navigation"] li.button.button-primary > a, .menu li.button.button-primary > a, .wp-block-button.is-style-primary .wp-block-button__link{ background-color: #0366d6;color: #ffffff;border-radius:3px;border:none;border-width:1px 1px 1px 1px; } .button.button-primary:hover, .nv-tags-list a:hover, ul[id^="nv-primary-navigation"] li.button.button-primary > a:hover, .menu li.button.button-primary > a:hover, .wp-block-button.is-style-primary .wp-block-button__link:hover { background-color: #0366d6;color: #ffffff; } .button.button-secondary, #comments input[type="submit"], #comments input[type=submit], .cart-off-canvas .button.nv-close-cart-sidebar, .wp-block-button.is-style-secondary .wp-block-button__link{ color: #676767;border-radius:3px;border:1px solid;border-width:1px 1px 1px 1px; } .button.button-secondary:hover, #comments input[type="submit"]:hover, .cart-off-canvas .button.nv-close-cart-sidebar:hover, .wp-block-button.is-style-secondary .wp-block-button__link:hover{ color: #676767; } .nv-tags-list a:hover{ background-color: #0366d6; } .nv-tags-list a{ color: #0366d6;border-color: #0366d6; } body, .site-title{ font-family: Montserrat; } .header-main-inner,.header-main-inner a:not(.button),.header-main-inner .navbar-toggle{ color: #404248; } .header-main-inner .nv-icon svg,.header-main-inner .nv-contact-list svg{ fill: #404248; } .header-main-inner .icon-bar{ background-color: #404248; } .hfg_header .header-main-inner .nav-ul .sub-menu{ background-color: #ffffff; } .hfg_header .header-main-inner{ background-color: #ffffff; } .header-menu-sidebar .header-menu-sidebar-bg,.header-menu-sidebar .header-menu-sidebar-bg a:not(.button),.header-menu-sidebar .header-menu-sidebar-bg .navbar-toggle{ color: #404248; } .header-menu-sidebar .header-menu-sidebar-bg .nv-icon svg,.header-menu-sidebar .header-menu-sidebar-bg .nv-contact-list svg{ fill: #404248; } .header-menu-sidebar .header-menu-sidebar-bg .icon-bar{ background-color: #404248; } .hfg_header .header-menu-sidebar .header-menu-sidebar-bg .nav-ul .sub-menu{ background-color: #ffffff; } .hfg_header .header-menu-sidebar .header-menu-sidebar-bg{ background-color: #ffffff; } .header-menu-sidebar{ width: 360px; } .builder-item--logo .site-logo img{ max-width: 120px; } .builder-item--logo .site-logo{ padding:10px 0px 10px 0px; } .builder-item--logo{ margin:0px 0px 0px 0px; } .builder-item--nav-icon .navbar-toggle{ padding:10px 15px 10px 15px; } .builder-item--nav-icon{ margin:0px 0px 0px 0px; } .builder-item--primary-menu .nav-menu-primary > .nav-ul li:not(.woocommerce-mini-cart-item) > a,.builder-item--primary-menu .nav-menu-primary > .nav-ul .has-caret > a,.builder-item--primary-menu .nav-menu-primary > .nav-ul .neve-mm-heading span,.builder-item--primary-menu .nav-menu-primary > .nav-ul .has-caret{ color: #404248; } .builder-item--primary-menu .nav-menu-primary > .nav-ul li:not(.woocommerce-mini-cart-item) > a:after,.builder-item--primary-menu .nav-menu-primary > .nav-ul li > .has-caret > a:after{ background-color: #0366d6; } .builder-item--primary-menu .nav-menu-primary > .nav-ul li:not(.woocommerce-mini-cart-item):hover > a,.builder-item--primary-menu .nav-menu-primary > .nav-ul li:hover > .has-caret > a,.builder-item--primary-menu .nav-menu-primary > .nav-ul li:hover > .has-caret{ color: #0366d6; } .builder-item--primary-menu .nav-menu-primary > .nav-ul li:hover > .has-caret svg{ fill: #0366d6; } .builder-item--primary-menu .nav-menu-primary > .nav-ul li.current-menu-item > a,.builder-item--primary-menu .nav-menu-primary > .nav-ul li.current_page_item > a,.builder-item--primary-menu .nav-menu-primary > .nav-ul li.current_page_item > .has-caret > a{ color: #0366d6; } .builder-item--primary-menu .nav-menu-primary > .nav-ul li.current-menu-item > .has-caret svg{ fill: #0366d6; } .builder-item--primary-menu .nav-ul > li:not(:last-of-type){ margin-right:20px; } .builder-item--primary-menu .style-full-height .nav-ul li:not(.menu-item-nav-search):not(.menu-item-nav-cart):hover > a:after{ width: calc(100% + 20px); } .builder-item--primary-menu .nav-ul li a, .builder-item--primary-menu .neve-mm-heading span{ min-height: 25px; } .builder-item--primary-menu{ font-size: 1em; line-height: 1.6em; letter-spacing: 0px; font-weight: 500; text-transform: none; padding:0px 0px 0px 0px;margin:0px 0px 0px 0px; } .builder-item--primary-menu svg{ width: 1em;height: 1em; } @media(min-width: 576px){ .container{ max-width: 992px; } .header-menu-sidebar{ width: 360px; } .builder-item--logo .site-logo img{ max-width: 120px; } .builder-item--logo .site-logo{ padding:10px 0px 10px 0px; } .builder-item--logo{ margin:0px 0px 0px 0px; } .builder-item--nav-icon .navbar-toggle{ padding:10px 15px 10px 15px; } .builder-item--nav-icon{ margin:0px 0px 0px 0px; } .builder-item--primary-menu .nav-ul > li:not(:last-of-type){ margin-right:20px; } .builder-item--primary-menu .style-full-height .nav-ul li:not(.menu-item-nav-search):not(.menu-item-nav-cart):hover > a:after{ width: calc(100% + 20px); } .builder-item--primary-menu .nav-ul li a, .builder-item--primary-menu .neve-mm-heading span{ min-height: 25px; } .builder-item--primary-menu{ font-size: 1em; line-height: 1.6em; letter-spacing: 0px; padding:0px 0px 0px 0px;margin:0px 0px 0px 0px; } .builder-item--primary-menu svg{ width: 1em;height: 1em; } }@media(min-width: 960px){ .container{ max-width: 1170px; } #content .container .col, #content .container-fluid .col{ max-width: 70%; } .alignfull > [class*="__inner-container"], .alignwide > [class*="__inner-container"]{ max-width:789px } .container-fluid .alignfull > [class*="__inner-container"], .container-fluid .alignwide > [class*="__inner-container"]{ max-width:calc(70% + 15px) } .nv-sidebar-wrap, .nv-sidebar-wrap.shop-sidebar{ max-width: 30%; } .header-menu-sidebar{ width: 360px; } .builder-item--logo .site-logo img{ max-width: 60px; } .builder-item--logo .site-logo{ padding:10px 0px 10px 0px; } .builder-item--logo{ margin:0px 0px 0px 0px; } .builder-item--nav-icon .navbar-toggle{ padding:10px 15px 10px 15px; } .builder-item--nav-icon{ margin:0px 0px 0px 0px; } .builder-item--primary-menu .nav-ul > li:not(:last-of-type){ margin-right:20px; } .builder-item--primary-menu .style-full-height .nav-ul li:not(.menu-item-nav-search):not(.menu-item-nav-cart) > a:after{ left:-10px;right:-10px } .builder-item--primary-menu .style-full-height .nav-ul li:not(.menu-item-nav-search):not(.menu-item-nav-cart):hover > a:after{ width: calc(100% + 20px); } .builder-item--primary-menu .nav-ul li a, .builder-item--primary-menu .neve-mm-heading span{ min-height: 25px; } .builder-item--primary-menu{ font-size: 1em; line-height: 1.6em; letter-spacing: 0px; padding:0px 0px 0px 0px;margin:0px 0px 0px 0px; } .builder-item--primary-menu svg{ width: 1em;height: 1em; } }.nv-content-wrap .elementor a:not(.button):not(.wp-block-file__button){ text-decoration: none; }
+</style>
+<link rel="stylesheet" id="neve-google-font-montserrat-css" href="//fonts.googleapis.com/css?family=Montserrat%3A400&#038;display=swap&#038;ver=5.5.3" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-1-css" href="//fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.5.3" type="text/css" media="all">
+<script type="text/javascript" id="monsterinsights-frontend-script-js-extra">
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":".","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js?ver=7.14.0" id="monsterinsights-frontend-script-js"></script>
+<script type="text/javascript" src="//www.googletagmanager.com/gtag/js?id=UA-173957491-1" id="google_gtagjs-js" async></script>
+<script type="text/javascript" id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('set', 'developer_id.dZTNiMT', true);
+gtag('config', 'UA-173957491-1', {"anonymize_ip":true} );
+</script>
+<link rel="https://api.w.org/" href="./wp-json/index.html"><link rel="alternate" type="application/json" href="./wp-json/wp/v2/pages/5/index.html"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="./xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="./wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 5.5.3">
+<link rel="canonical" href="./index.html">
+<link rel="shortlink" href="./index.html">
+<link rel="alternate" type="application/json+oembed" href="./wp-json/oembed/1.0/embed/index.html?url=https%3A%2F%2F%2F">
+<link rel="alternate" type="text/xml+oembed" href="./wp-json/oembed/1.0/embed/index.html?url=https%3A%2F%2F%2F&#038;format=xml">
+				<style type="text/css">
+					@font-face { font-family:Gordita Black;src:url(./wp-content/uploads/2020/10/Gordita-Black.otf) format('opentype');font-display: auto;}@font-face { font-family:Gordita Black Italic;src:url(./wp-content/uploads/2020/10/Gordita-Black-Italic.otf) format('opentype');font-display: auto;}@font-face { font-family:Gordita Bold;src:url(./wp-content/uploads/2020/10/Gordita-Bold.otf) format('opentype');font-display: auto;}@font-face { font-family:Gordita Bold Italic;src:url(./wp-content/uploads/2020/10/Gordita-Bold-Italic.otf) format('opentype');font-display: auto;}@font-face { font-family:Gordita Light;src:url(./wp-content/uploads/2020/10/Gordita-Light.otf) format('opentype');font-display: auto;}@font-face { font-family:Gordita Light Italic;src:url(./wp-content/uploads/2020/10/Gordita-Light-Italic.otf) format('opentype');font-display: auto;}@font-face { font-family:Gordita Medium Italic;src:url(./wp-content/uploads/2020/10/Gordita-Medium-Italic.otf) format('opentype');font-display: auto;}@font-face { font-family:Gordita Regular;src:url(./wp-content/uploads/2020/10/Gordita-Regular.otf) format('opentype');font-display: auto;}@font-face { font-family:Gordita Regular Italic;src:url(./wp-content/uploads/2020/10/Gordita-Regular-Italic.otf) format('opentype');font-display: auto;}@font-face { font-family:Gordita Thin;src:url(./wp-content/uploads/2020/10/Gordita-Thin.otf) format('opentype');font-display: auto;}@font-face { font-family:Gordita Thin Italic;src:url(./wp-content/uploads/2020/10/Gordita-Thin-Italic.otf) format('opentype');font-display: auto;}@font-face { font-family:Gordita Ultra;src:url(./wp-content/uploads/2020/10/Gordita-Ultra.otf) format('opentype');font-display: auto;}@font-face { font-family:Gordita Ultra Italic;src:url(./wp-content/uploads/2020/10/Gordita-Ultra-Italic.otf) format('opentype');font-display: auto;}@font-face { font-family:gordita_medium;src:url(./wp-content/uploads/2020/10/Gordita-Medium.otf) format('opentype');font-display: auto;}				</style>
+				<meta name="generator" content="Site Kit by Google 1.19.0">
+
+<script type="text/javascript">
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+</script>
+
+<script type="text/javascript">
+  fbq('init', '779206782925507', {}, {
+    "agent": "wordpress-5.5.3-2.2.2"
+});
+</script><script type="text/javascript">
+  fbq('track', 'PageView', []);
+</script>
+
+<noscript>
+<img height="1" width="1" style="display:none" alt="fbpx" src="//www.facebook.com/tr?id=779206782925507&ev=PageView&noscript=1">
+</noscript>
+
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="./wp-content/uploads/2020/10/cropped-Flexibe-Logo-512512-32x32.png" sizes="32x32">
+<link rel="icon" href="./wp-content/uploads/2020/10/cropped-Flexibe-Logo-512512-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="./wp-content/uploads/2020/10/cropped-Flexibe-Logo-512512-180x180.png">
+<meta name="msapplication-TileImage" content="./wp-content/uploads/2020/10/cropped-Flexibe-Logo-512512-270x270.png">
+		
+		<script>
+			var aepc_pixel = {"pixel_id":"275532753876131","user":{},"enable_advanced_events":"yes","fire_delay":"0"},
+				aepc_pixel_args = [],
+				aepc_extend_args = function( args ) {
+					if ( typeof args === 'undefined' ) {
+						args = {};
+					}
+
+					for(var key in aepc_pixel_args)
+						args[key] = aepc_pixel_args[key];
+
+					return args;
+				};
+
+			// Extend args
+			if ( 'yes' === aepc_pixel.enable_advanced_events ) {
+				aepc_pixel_args.userAgent = navigator.userAgent;
+				aepc_pixel_args.language = navigator.language;
+
+				if ( document.referrer.indexOf( document.domain ) < 0 ) {
+					aepc_pixel_args.referrer = document.referrer;
+				}
+			}
+		</script>
+		<script>
+						!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+				n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+				n.push=n;n.loaded=!0;n.version='2.0';n.agent='dvpixelcaffeinewordpress';n.queue=[];t=b.createElement(e);t.async=!0;
+				t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+				document,'script','https://connect.facebook.net/en_US/fbevents.js');
+			
+						fbq('init', aepc_pixel.pixel_id, aepc_pixel.user);
+
+						setTimeout( function() {
+				fbq('track', "PageView", aepc_pixel_args);
+			}, aepc_pixel.fire_delay * 1000 );
+					</script>
+				<noscript><img height="1" width="1" style="display:none" src="//www.facebook.com/tr?id=275532753876131&ev=PageView&noscript=1"></noscript>
+				
+				<style type="text/css" id="wp-custom-css">
+			.cf7_form{
+	padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.esquerdinha{
+	width: 60%;
+  float: left;
+  justify-content: center;
+  align-items: center;
+}
+.direitinha{
+	
+	width: 40%;
+  float: right;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form submit button */
+.register_button{
+		width: 40%
+		overflow: visible;
+    position: flex;
+    float: right;
+    padding: 0px 0px 0px 0px;
+/*     cursor: pointer; */
+/*     font: bold 15px/40px 'montserrat'; */
+    color: #fff;
+    background: #FFF;
+    border-radius: 7px;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.elementor-5 .elementor-element.elementor-element-2e9f55b .eael-contact-form-7 .wpcf7-form input[type="submit"] {
+    display: flex;
+    background-color: #F96646;
+    border-radius: 8% 8% 8% 8%;
+    padding: 10px 20px 10px 20px;
+    font-family: "gordita_medium",Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0);
+}		</style>
+		</head>
+
+<body class="home page-template page-template-elementor_header_footer page page-id-5 wp-custom-logo ehf-header ehf-template-neve ehf-stylesheet-neve nv-sidebar-right menu_sidebar_slide_left elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-5" id="neve_body">
+<div class="wrapper">
+		<header class="header" role="banner">
+		<a class="neve-skip-link show-on-focus" href="#content" tabindex="0">
+			Skip to content		</a>
+				<header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+			<p class="main-title bhf-hidden" itemprop="headline"><a href="./index.html" title="Flexibe app" rel="home">Flexibe app</a></p>
+					<div data-elementor-type="wp-post" data-elementor-id="279" class="elementor elementor-279" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-e3539b4 elementor-hidden-phone elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e3539b4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b124da6" data-id="b124da6" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-b3ec9fd elementor-widget elementor-widget-image" data-id="b3ec9fd" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1024" height="202" src="./wp-content/uploads/2020/10/logoLaranja_comTexto-1024x202.png" class="attachment-large size-large" alt="" loading="lazy" srcset="./wp-content/uploads/2020/10/logoLaranja_comTexto-1024x202.png 1024w,./wp-content/uploads/2020/10/logoLaranja_comTexto-300x59.png 300w,./wp-content/uploads/2020/10/logoLaranja_comTexto-768x152.png 768w,./wp-content/uploads/2020/10/logoLaranja_comTexto-1536x303.png 1536w,./wp-content/uploads/2020/10/logoLaranja_comTexto-2048x404.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px">											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e8c5a37" data-id="e8c5a37" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-85c5dd5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="85c5dd5" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4219c23" data-id="4219c23" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-ebb6b6e elementor-align-right elementor-widget elementor-widget-button" data-id="ebb6b6e" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#features-session" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Features</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-db060a3" data-id="db060a3" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-b470990 elementor-align-left elementor-widget elementor-widget-button" data-id="b470990" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Early access</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+				</header>
+
+			
+<script async src="//www.googletagmanager.com/gtag/js?id=UA-173957491-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-173957491-1');
+</script>
+
+	</header>
+		
+	<main id="content" class="neve-main" role="main">
+
+		<div data-elementor-type="wp-page" data-elementor-id="5" class="elementor elementor-5" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-b4946e6 elementor-hidden-phone elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b4946e6" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8008588" data-id="8008588" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-a966f95 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a966f95" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-ad15e80" data-id="ad15e80" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-77b311c elementor-widget elementor-widget-text-editor" data-id="77b311c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>STRETCH APP</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-b0da6e3 elementor-widget elementor-widget-text-editor" data-id="b0da6e3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>DON&#8217;T WORRY<br>WE&#8217;VE GOT YOUR BACK</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-47f66fe elementor-widget elementor-widget-text-editor" data-id="47f66fe" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><strong>Flexibe</strong> is the perfect app for those who feel body pains caused by work. With stretch sessions and break alerts we are going to fix your pain!</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-600b4db elementor-widget elementor-widget-shortcode" data-id="600b4db" data-element_type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-shortcode">  
+  
+  <div class="mailpoet_form_popup_overlay"></div>
+  <div id="mailpoet_form_1" class="mailpoet_form mailpoet_form_shortcode mailpoet_form_position_ mailpoet_form_animation_">
+        <style type="text/css">.mailpoet_hp_email_label{display:none!important;}#mailpoet_form_1 .mailpoet_form {  }
+#mailpoet_form_1 .mailpoet_column_with_background { padding: 10px; }
+#mailpoet_form_1 .mailpoet_form_column:not(:first-child) { margin-left: 20px; }
+#mailpoet_form_1 .mailpoet_paragraph { line-height: 20px; margin-bottom: 20px; }
+#mailpoet_form_1 .mailpoet_segment_label, #mailpoet_form_1 .mailpoet_text_label, #mailpoet_form_1 .mailpoet_textarea_label, #mailpoet_form_1 .mailpoet_select_label, #mailpoet_form_1 .mailpoet_radio_label, #mailpoet_form_1 .mailpoet_checkbox_label, #mailpoet_form_1 .mailpoet_list_label, #mailpoet_form_1 .mailpoet_date_label { display: block; font-weight: normal; }
+#mailpoet_form_1 .mailpoet_text, #mailpoet_form_1 .mailpoet_textarea, #mailpoet_form_1 .mailpoet_select, #mailpoet_form_1 .mailpoet_date_month, #mailpoet_form_1 .mailpoet_date_day, #mailpoet_form_1 .mailpoet_date_year, #mailpoet_form_1 .mailpoet_date { display: block; }
+#mailpoet_form_1 .mailpoet_text, #mailpoet_form_1 .mailpoet_textarea { width: 200px; }
+#mailpoet_form_1 .mailpoet_checkbox {  }
+#mailpoet_form_1 .mailpoet_submit {  }
+#mailpoet_form_1 .mailpoet_divider {  }
+#mailpoet_form_1 .mailpoet_message {  }
+#mailpoet_form_1 .mailpoet_form_loading { width: 30px; text-align: center; line-height: normal; }
+#mailpoet_form_1 .mailpoet_form_loading > span { width: 5px; height: 5px; background-color: #5b5b5b; }#mailpoet_form_1{border: 0px solid #ffffff;border-radius: 10px;color: #000000;text-align: left;}#mailpoet_form_1 form.mailpoet_form {padding: 0px;}#mailpoet_form_1{width: 100%;}#mailpoet_form_1 .mailpoet_message {margin: 0; padding: 0 20px;}
+        #mailpoet_form_1 .mailpoet_validate_success {color: #7bdcb5}
+        #mailpoet_form_1 input.parsley-success {color: #7bdcb5}
+        #mailpoet_form_1 select.parsley-success {color: #7bdcb5}
+        #mailpoet_form_1 textarea.parsley-success {color: #7bdcb5}
+      #mailpoet_form_1 .mailpoet_paragraph.last {margin-bottom: 0} @media (max-width: 500px) {#mailpoet_form_1 {background-image: none;}} @media (min-width: 500px) {#mailpoet_form_1 .last .mailpoet_paragraph:last-child {margin-bottom: 0}}  @media (max-width: 500px) {#mailpoet_form_1 .mailpoet_form_column:last-child .mailpoet_paragraph:last-child {margin-bottom: 0}} </style>
+    <form target="_self" method="post" action="./wp-admin/admin-post.php?action=mailpoet_subscription_form" class="mailpoet_form mailpoet_form_form mailpoet_form_shortcode" novalidate data-delay="" data-exit-intent-enabled="" data-font-family="">
+      <input type="hidden" name="data[form_id]" value="1">
+      <input type="hidden" name="token" value="a2172414c6">
+      <input type="hidden" name="api_version" value="v1">
+      <input type="hidden" name="endpoint" value="subscribers">
+      <input type="hidden" name="mailpoet_method" value="subscribe">
+
+      <label class="mailpoet_hp_email_label">Please leave this field empty<input type="email" name="data[email]"></label><div class="mailpoet_form_columns mailpoet_paragraph" style="color:;background:;"><div class="mailpoet_form_column" style="flex-basis:50%;"></div>
+<div class="mailpoet_form_column" style="flex-basis:50%;"></div>
+</div>
+<div class="mailpoet_form_columns mailpoet_paragraph" style="color:;background:;"><div class="mailpoet_form_column" style="flex-basis:66.66%;"><div class="mailpoet_paragraph"><style>input[name="data[form_field_YTgyNTgzNGQ5MzVkX2VtYWls]"]::placeholder{color:#000000;opacity: 1;}</style><input type="email" class="mailpoet_text" name="data[form_field_YTgyNTgzNGQ5MzVkX2VtYWls]" title="Your best email" value="" style="width:100%;background-color:#ffffff;border-style:solid;border-radius:6px !important;border-width:0px;border-color:#313131;padding:12px;margin: 0 auto 0 0;font-family:'Montserrat';font-size:20px;line-height:1.5;height:auto;color:#000000;" data-automation-id="form_email" placeholder="Your best email *" data-parsley-required="true" data-parsley-minlength="6" data-parsley-maxlength="150" data-parsley-error-message="Please specify a valid email address." data-parsley-required-message="This field is required."></div>
+</div>
+<div class="mailpoet_form_column" style="flex-basis:33.33%;"><div class="mailpoet_paragraph"><input type="submit" class="mailpoet_submit" value="Subscribe!" data-automation-id="subscribe-submit-button" style="background-color:#ffffff;border-style:solid;border-radius:7px !important;border-width:1px;border-color:#ffffff;padding:12px;margin: 0 auto 0 0;font-family:'Montserrat';font-size:20px;line-height:1.5;height:auto;color:#f96646;"><span class="mailpoet_form_loading"><span class="mailpoet_bounce1"></span><span class="mailpoet_bounce2"></span><span class="mailpoet_bounce3"></span></span></div>
+</div>
+</div>
+
+      <div class="mailpoet_message">
+        <p class="mailpoet_validate_success" style="display:none;">Thank you for your interest :D
+We will be in touch
+        </p>
+        <p class="mailpoet_validate_error" style="display:none;">        </p>
+      </div>
+    </form>
+  </div>
+
+  </div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-07323f4" data-id="07323f4" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-22e7c53 elementor-widget elementor-widget-image" data-id="22e7c53" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="766" height="1024" src="./wp-content/uploads/2020/10/Session-1-Image-1-766x1024.png" class="attachment-large size-large" alt="" loading="lazy" srcset="./wp-content/uploads/2020/10/Session-1-Image-1-766x1024.png 766w,./wp-content/uploads/2020/10/Session-1-Image-1-225x300.png 225w,./wp-content/uploads/2020/10/Session-1-Image-1-768x1026.png 768w,./wp-content/uploads/2020/10/Session-1-Image-1-1150x1536.png 1150w,./wp-content/uploads/2020/10/Session-1-Image-1-1533x2048.png 1533w,./wp-content/uploads/2020/10/Session-1-Image-1.png 1642w" sizes="(max-width: 766px) 100vw, 766px">											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-799b25b elementor-section-full_width elementor-hidden-desktop elementor-hidden-tablet elementor-section-height-default elementor-section-height-default" data-id="799b25b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-42e76b9" data-id="42e76b9" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-60aae12 elementor-widget elementor-widget-text-editor" data-id="60aae12" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>STRETCH APP</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-49fb366 elementor-widget elementor-widget-text-editor" data-id="49fb366" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>DON&#8217;T WORRY<br>WE&#8217;VE GOT YOUR BACK</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-18cdd76 elementor-widget elementor-widget-image" data-id="18cdd76" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="766" height="1024" src="./wp-content/uploads/2020/10/Session-1-Image-1-766x1024.png" class="attachment-large size-large" alt="" loading="lazy" srcset="./wp-content/uploads/2020/10/Session-1-Image-1-766x1024.png 766w,./wp-content/uploads/2020/10/Session-1-Image-1-225x300.png 225w,./wp-content/uploads/2020/10/Session-1-Image-1-768x1026.png 768w,./wp-content/uploads/2020/10/Session-1-Image-1-1150x1536.png 1150w,./wp-content/uploads/2020/10/Session-1-Image-1-1533x2048.png 1533w,./wp-content/uploads/2020/10/Session-1-Image-1.png 1642w" sizes="(max-width: 766px) 100vw, 766px">											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-074245c elementor-widget elementor-widget-text-editor" data-id="074245c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><strong>Flexibe</strong> is the perfect app for those who feel body pains caused by work. With stretch sessions and break alerts we are going to fix your pain!</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-d8667b3 elementor-widget elementor-widget-shortcode" data-id="d8667b3" data-element_type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-shortcode">  
+  
+  <div class="mailpoet_form_popup_overlay"></div>
+  <div id="mailpoet_form_1" class="mailpoet_form mailpoet_form_shortcode mailpoet_form_position_ mailpoet_form_animation_">
+        <style type="text/css">.mailpoet_hp_email_label{display:none!important;}#mailpoet_form_1 .mailpoet_form {  }
+#mailpoet_form_1 .mailpoet_column_with_background { padding: 10px; }
+#mailpoet_form_1 .mailpoet_form_column:not(:first-child) { margin-left: 20px; }
+#mailpoet_form_1 .mailpoet_paragraph { line-height: 20px; margin-bottom: 20px; }
+#mailpoet_form_1 .mailpoet_segment_label, #mailpoet_form_1 .mailpoet_text_label, #mailpoet_form_1 .mailpoet_textarea_label, #mailpoet_form_1 .mailpoet_select_label, #mailpoet_form_1 .mailpoet_radio_label, #mailpoet_form_1 .mailpoet_checkbox_label, #mailpoet_form_1 .mailpoet_list_label, #mailpoet_form_1 .mailpoet_date_label { display: block; font-weight: normal; }
+#mailpoet_form_1 .mailpoet_text, #mailpoet_form_1 .mailpoet_textarea, #mailpoet_form_1 .mailpoet_select, #mailpoet_form_1 .mailpoet_date_month, #mailpoet_form_1 .mailpoet_date_day, #mailpoet_form_1 .mailpoet_date_year, #mailpoet_form_1 .mailpoet_date { display: block; }
+#mailpoet_form_1 .mailpoet_text, #mailpoet_form_1 .mailpoet_textarea { width: 200px; }
+#mailpoet_form_1 .mailpoet_checkbox {  }
+#mailpoet_form_1 .mailpoet_submit {  }
+#mailpoet_form_1 .mailpoet_divider {  }
+#mailpoet_form_1 .mailpoet_message {  }
+#mailpoet_form_1 .mailpoet_form_loading { width: 30px; text-align: center; line-height: normal; }
+#mailpoet_form_1 .mailpoet_form_loading > span { width: 5px; height: 5px; background-color: #5b5b5b; }#mailpoet_form_1{border: 0px solid #ffffff;border-radius: 10px;color: #000000;text-align: left;}#mailpoet_form_1 form.mailpoet_form {padding: 0px;}#mailpoet_form_1{width: 100%;}#mailpoet_form_1 .mailpoet_message {margin: 0; padding: 0 20px;}
+        #mailpoet_form_1 .mailpoet_validate_success {color: #7bdcb5}
+        #mailpoet_form_1 input.parsley-success {color: #7bdcb5}
+        #mailpoet_form_1 select.parsley-success {color: #7bdcb5}
+        #mailpoet_form_1 textarea.parsley-success {color: #7bdcb5}
+      #mailpoet_form_1 .mailpoet_paragraph.last {margin-bottom: 0} @media (max-width: 500px) {#mailpoet_form_1 {background-image: none;}} @media (min-width: 500px) {#mailpoet_form_1 .last .mailpoet_paragraph:last-child {margin-bottom: 0}}  @media (max-width: 500px) {#mailpoet_form_1 .mailpoet_form_column:last-child .mailpoet_paragraph:last-child {margin-bottom: 0}} </style>
+    <form target="_self" method="post" action="./wp-admin/admin-post.php?action=mailpoet_subscription_form" class="mailpoet_form mailpoet_form_form mailpoet_form_shortcode" novalidate data-delay="" data-exit-intent-enabled="" data-font-family="">
+      <input type="hidden" name="data[form_id]" value="1">
+      <input type="hidden" name="token" value="a2172414c6">
+      <input type="hidden" name="api_version" value="v1">
+      <input type="hidden" name="endpoint" value="subscribers">
+      <input type="hidden" name="mailpoet_method" value="subscribe">
+
+      <label class="mailpoet_hp_email_label">Please leave this field empty<input type="email" name="data[email]"></label><div class="mailpoet_form_columns mailpoet_paragraph" style="color:;background:;"><div class="mailpoet_form_column" style="flex-basis:50%;"></div>
+<div class="mailpoet_form_column" style="flex-basis:50%;"></div>
+</div>
+<div class="mailpoet_form_columns mailpoet_paragraph" style="color:;background:;"><div class="mailpoet_form_column" style="flex-basis:66.66%;"><div class="mailpoet_paragraph"><style>input[name="data[form_field_YTgyNTgzNGQ5MzVkX2VtYWls]"]::placeholder{color:#000000;opacity: 1;}</style><input type="email" class="mailpoet_text" name="data[form_field_YTgyNTgzNGQ5MzVkX2VtYWls]" title="Your best email" value="" style="width:100%;background-color:#ffffff;border-style:solid;border-radius:6px !important;border-width:0px;border-color:#313131;padding:12px;margin: 0 auto 0 0;font-family:'Montserrat';font-size:20px;line-height:1.5;height:auto;color:#000000;" data-automation-id="form_email" placeholder="Your best email *" data-parsley-required="true" data-parsley-minlength="6" data-parsley-maxlength="150" data-parsley-error-message="Please specify a valid email address." data-parsley-required-message="This field is required."></div>
+</div>
+<div class="mailpoet_form_column" style="flex-basis:33.33%;"><div class="mailpoet_paragraph"><input type="submit" class="mailpoet_submit" value="Subscribe!" data-automation-id="subscribe-submit-button" style="background-color:#ffffff;border-style:solid;border-radius:7px !important;border-width:1px;border-color:#ffffff;padding:12px;margin: 0 auto 0 0;font-family:'Montserrat';font-size:20px;line-height:1.5;height:auto;color:#f96646;"><span class="mailpoet_form_loading"><span class="mailpoet_bounce1"></span><span class="mailpoet_bounce2"></span><span class="mailpoet_bounce3"></span></span></div>
+</div>
+</div>
+
+      <div class="mailpoet_message">
+        <p class="mailpoet_validate_success" style="display:none;">Thank you for your interest :D
+We will be in touch
+        </p>
+        <p class="mailpoet_validate_error" style="display:none;">        </p>
+      </div>
+    </form>
+  </div>
+
+  </div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-7f81d67 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="7f81d67" data-element_type="section" id="features-session" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e0a04c5" data-id="e0a04c5" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-e53b12d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e53b12d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b7ef810" data-id="b7ef810" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-5b5463c elementor-widget elementor-widget-image" data-id="5b5463c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1024" height="806" src="./wp-content/uploads/2020/10/STRETCH-VIDEO-CLASSES-WITH-SPECIALISTS-1024x806.png" class="attachment-large size-large" alt="" loading="lazy" srcset="./wp-content/uploads/2020/10/STRETCH-VIDEO-CLASSES-WITH-SPECIALISTS-1024x806.png 1024w,./wp-content/uploads/2020/10/STRETCH-VIDEO-CLASSES-WITH-SPECIALISTS-300x236.png 300w,./wp-content/uploads/2020/10/STRETCH-VIDEO-CLASSES-WITH-SPECIALISTS-768x604.png 768w,./wp-content/uploads/2020/10/STRETCH-VIDEO-CLASSES-WITH-SPECIALISTS-1536x1209.png 1536w,./wp-content/uploads/2020/10/STRETCH-VIDEO-CLASSES-WITH-SPECIALISTS-2048x1611.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px">											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-60593f9" data-id="60593f9" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-2c58d9d elementor-widget elementor-widget-text-editor" data-id="2c58d9d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>STRETCH SESSIONS</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-be1763e elementor-widget elementor-widget-text-editor" data-id="be1763e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>STRETCH VIDEO CLASSES WITH SPECIALISTS</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-ce63deb elementor-widget elementor-widget-text-editor" data-id="ce63deb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Learn the best exercises to get rid of all your body pains and prevent future pains</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-1c0dfae elementor-hidden-desktop elementor-hidden-tablet elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1c0dfae" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-64ca9e9" data-id="64ca9e9" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-0a9510d elementor-widget elementor-widget-image" data-id="0a9510d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="806" height="1024" src="./wp-content/uploads/2020/10/SET-REMINDERS-AND-TRACK-YOUR-BREAK-ROUTINE-806x1024.png" class="attachment-large size-large" alt="" loading="lazy" srcset="./wp-content/uploads/2020/10/SET-REMINDERS-AND-TRACK-YOUR-BREAK-ROUTINE-806x1024.png 806w,./wp-content/uploads/2020/10/SET-REMINDERS-AND-TRACK-YOUR-BREAK-ROUTINE-236x300.png 236w,./wp-content/uploads/2020/10/SET-REMINDERS-AND-TRACK-YOUR-BREAK-ROUTINE-768x976.png 768w,./wp-content/uploads/2020/10/SET-REMINDERS-AND-TRACK-YOUR-BREAK-ROUTINE-1208x1536.png 1208w,./wp-content/uploads/2020/10/SET-REMINDERS-AND-TRACK-YOUR-BREAK-ROUTINE-1611x2048.png 1611w,./wp-content/uploads/2020/10/SET-REMINDERS-AND-TRACK-YOUR-BREAK-ROUTINE.png 1674w" sizes="(max-width: 806px) 100vw, 806px">											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1b7feaf" data-id="1b7feaf" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-ebfa05d elementor-widget elementor-widget-text-editor" data-id="ebfa05d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>BREAKS TRACKER</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-29175db elementor-widget elementor-widget-text-editor" data-id="29175db" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>SET REMINDERS AND TRACK YOUR BREAK ROUTINE</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-0292cb8 elementor-widget elementor-widget-text-editor" data-id="0292cb8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>It&#8217;s important to take breaks while your working! Flexibe app sends you notifications to remember you to stand up and laze for some minutes</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-a02affc elementor-section-full_width elementor-hidden-phone elementor-section-height-default elementor-section-height-default" data-id="a02affc" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-78c5e1e" data-id="78c5e1e" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-ebd7c86 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ebd7c86" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-0657552" data-id="0657552" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-45a22d5 elementor-widget elementor-widget-text-editor" data-id="45a22d5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>BREAKS TRACKER</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-997b0bb elementor-widget elementor-widget-text-editor" data-id="997b0bb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>SET REMINDERS AND TRACK YOUR BREAK ROUTINE</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-b88a16c elementor-widget elementor-widget-text-editor" data-id="b88a16c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>It&#8217;s important to take breaks while your working! Flexibe app sends you notifications to remember you to stand up and laze for some minutes</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-dab469f" data-id="dab469f" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1f01bcf elementor-widget elementor-widget-image" data-id="1f01bcf" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="806" height="1024" src="./wp-content/uploads/2020/10/SET-REMINDERS-AND-TRACK-YOUR-BREAK-ROUTINE-806x1024.png" class="attachment-large size-large" alt="" loading="lazy" srcset="./wp-content/uploads/2020/10/SET-REMINDERS-AND-TRACK-YOUR-BREAK-ROUTINE-806x1024.png 806w,./wp-content/uploads/2020/10/SET-REMINDERS-AND-TRACK-YOUR-BREAK-ROUTINE-236x300.png 236w,./wp-content/uploads/2020/10/SET-REMINDERS-AND-TRACK-YOUR-BREAK-ROUTINE-768x976.png 768w,./wp-content/uploads/2020/10/SET-REMINDERS-AND-TRACK-YOUR-BREAK-ROUTINE-1208x1536.png 1208w,./wp-content/uploads/2020/10/SET-REMINDERS-AND-TRACK-YOUR-BREAK-ROUTINE-1611x2048.png 1611w,./wp-content/uploads/2020/10/SET-REMINDERS-AND-TRACK-YOUR-BREAK-ROUTINE.png 1674w" sizes="(max-width: 806px) 100vw, 806px">											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-6fc1f5c elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="6fc1f5c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9962a49" data-id="9962a49" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-6fde7f3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6fde7f3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a16ce8a" data-id="a16ce8a" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-15ef4bb elementor-widget elementor-widget-image" data-id="15ef4bb" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="836" height="1024" src="./wp-content/uploads/2020/10/TRACK-AND-MEASURE-YOUR-JOURNEY-836x1024.png" class="attachment-large size-large" alt="" loading="lazy" srcset="./wp-content/uploads/2020/10/TRACK-AND-MEASURE-YOUR-JOURNEY-836x1024.png 836w,./wp-content/uploads/2020/10/TRACK-AND-MEASURE-YOUR-JOURNEY-245x300.png 245w,./wp-content/uploads/2020/10/TRACK-AND-MEASURE-YOUR-JOURNEY-768x941.png 768w,./wp-content/uploads/2020/10/TRACK-AND-MEASURE-YOUR-JOURNEY-1254x1536.png 1254w,./wp-content/uploads/2020/10/TRACK-AND-MEASURE-YOUR-JOURNEY-1672x2048.png 1672w,./wp-content/uploads/2020/10/TRACK-AND-MEASURE-YOUR-JOURNEY.png 1837w" sizes="(max-width: 836px) 100vw, 836px">											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9bd3745" data-id="9bd3745" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-951bd43 elementor-widget elementor-widget-text-editor" data-id="951bd43" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>ERGONOMIC TRACK</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-14e5b63 elementor-widget elementor-widget-text-editor" data-id="14e5b63" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>TRACK AND MEASURE YOUR JOURNEY</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-649617c elementor-widget elementor-widget-text-editor" data-id="649617c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Set goals to a more ergonomic life and get rid of all of your body pains</p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-b186bc0 elementor-section-full_width elementor-hidden-phone elementor-section-height-default elementor-section-height-default" data-id="b186bc0" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4d1a1c9" data-id="4d1a1c9" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-1e05edc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1e05edc" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6f7cd7c" data-id="6f7cd7c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-927d43c elementor-widget elementor-widget-text-editor" data-id="927d43c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span style="white-space: pre-wrap;">COMMUNITY</span></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-74898b1 elementor-widget elementor-widget-text-editor" data-id="74898b1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span style="white-space: pre-wrap;">TAKE CARE OF YOUR BODY AND HAVE FUN WITH YOUR FRIENDS</span></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-de1f607 elementor-widget elementor-widget-text-editor" data-id="de1f607" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span style="white-space: pre-wrap;">Join challenges, get achievements and compare your journey with your friends!</span></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-94049d8" data-id="94049d8" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-18b40b2 elementor-widget elementor-widget-image" data-id="18b40b2" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="909" height="1024" src="./wp-content/uploads/2020/10/TAKE-CARE-OF-YOUR-BODY-AND-HAVE-FUN-WITH-YOUR-FRIENDS.png" class="attachment-large size-large" alt="" loading="lazy">											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-781f439 elementor-hidden-desktop elementor-hidden-tablet elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="781f439" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0dd3535" data-id="0dd3535" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-7ccf3e0 elementor-widget elementor-widget-image" data-id="7ccf3e0" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="909" height="1024" src="./wp-content/uploads/2020/10/TAKE-CARE-OF-YOUR-BODY-AND-HAVE-FUN-WITH-YOUR-FRIENDS.png" class="attachment-large size-large" alt="" loading="lazy">											</div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-30b42ac elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="30b42ac" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-2792700" data-id="2792700" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-adcb0eb elementor-widget elementor-widget-text-editor" data-id="adcb0eb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span style="white-space: pre-wrap;">COMMUNITY</span></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e984589 elementor-widget elementor-widget-text-editor" data-id="e984589" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span style="white-space: pre-wrap;">TAKE CARE
+OF YOUR
+BODY AND
+HAVE FUN
+WITH YOUR
+FRIENDS</span></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-12cc20a elementor-widget elementor-widget-text-editor" data-id="12cc20a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span style="white-space: pre-wrap;">Join challenges, get achievements and compare your journey with your friends!</span></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-2a7112d elementor-section-full_width elementor-hidden-desktop elementor-hidden-tablet elementor-section-height-default elementor-section-height-default" data-id="2a7112d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b616175" data-id="b616175" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1ac0fb0 elementor-widget elementor-widget-text-editor" data-id="1ac0fb0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>STRETCH APP</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-720287b elementor-widget elementor-widget-text-editor" data-id="720287b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>DON&#8217;T WORRY<br>WE&#8217;VE GOT YOUR BACK</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-575fa67 elementor-widget elementor-widget-image" data-id="575fa67" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="986" height="1024" src="./wp-content/uploads/2020/10/ilustrasite-986x1024.png" class="attachment-large size-large" alt="" loading="lazy" srcset="./wp-content/uploads/2020/10/ilustrasite-986x1024.png 986w,./wp-content/uploads/2020/10/ilustrasite-289x300.png 289w,./wp-content/uploads/2020/10/ilustrasite-768x798.png 768w,./wp-content/uploads/2020/10/ilustrasite-1479x1536.png 1479w,./wp-content/uploads/2020/10/ilustrasite-1972x2048.png 1972w" sizes="(max-width: 986px) 100vw, 986px">											</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-58204af elementor-widget elementor-widget-text-editor" data-id="58204af" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><strong>Flexibe</strong> is the perfect app for those who feel body pains caused by work. With stretch sessions and break alerts we are going to fix your pain!</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c061b5c elementor-widget elementor-widget-shortcode" data-id="c061b5c" data-element_type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-shortcode">  
+  
+  <div class="mailpoet_form_popup_overlay"></div>
+  <div id="mailpoet_form_1" class="mailpoet_form mailpoet_form_shortcode mailpoet_form_position_ mailpoet_form_animation_">
+        <style type="text/css">.mailpoet_hp_email_label{display:none!important;}#mailpoet_form_1 .mailpoet_form {  }
+#mailpoet_form_1 .mailpoet_column_with_background { padding: 10px; }
+#mailpoet_form_1 .mailpoet_form_column:not(:first-child) { margin-left: 20px; }
+#mailpoet_form_1 .mailpoet_paragraph { line-height: 20px; margin-bottom: 20px; }
+#mailpoet_form_1 .mailpoet_segment_label, #mailpoet_form_1 .mailpoet_text_label, #mailpoet_form_1 .mailpoet_textarea_label, #mailpoet_form_1 .mailpoet_select_label, #mailpoet_form_1 .mailpoet_radio_label, #mailpoet_form_1 .mailpoet_checkbox_label, #mailpoet_form_1 .mailpoet_list_label, #mailpoet_form_1 .mailpoet_date_label { display: block; font-weight: normal; }
+#mailpoet_form_1 .mailpoet_text, #mailpoet_form_1 .mailpoet_textarea, #mailpoet_form_1 .mailpoet_select, #mailpoet_form_1 .mailpoet_date_month, #mailpoet_form_1 .mailpoet_date_day, #mailpoet_form_1 .mailpoet_date_year, #mailpoet_form_1 .mailpoet_date { display: block; }
+#mailpoet_form_1 .mailpoet_text, #mailpoet_form_1 .mailpoet_textarea { width: 200px; }
+#mailpoet_form_1 .mailpoet_checkbox {  }
+#mailpoet_form_1 .mailpoet_submit {  }
+#mailpoet_form_1 .mailpoet_divider {  }
+#mailpoet_form_1 .mailpoet_message {  }
+#mailpoet_form_1 .mailpoet_form_loading { width: 30px; text-align: center; line-height: normal; }
+#mailpoet_form_1 .mailpoet_form_loading > span { width: 5px; height: 5px; background-color: #5b5b5b; }#mailpoet_form_1{border: 0px solid #ffffff;border-radius: 10px;color: #000000;text-align: left;}#mailpoet_form_1 form.mailpoet_form {padding: 0px;}#mailpoet_form_1{width: 100%;}#mailpoet_form_1 .mailpoet_message {margin: 0; padding: 0 20px;}
+        #mailpoet_form_1 .mailpoet_validate_success {color: #7bdcb5}
+        #mailpoet_form_1 input.parsley-success {color: #7bdcb5}
+        #mailpoet_form_1 select.parsley-success {color: #7bdcb5}
+        #mailpoet_form_1 textarea.parsley-success {color: #7bdcb5}
+      #mailpoet_form_1 .mailpoet_paragraph.last {margin-bottom: 0} @media (max-width: 500px) {#mailpoet_form_1 {background-image: none;}} @media (min-width: 500px) {#mailpoet_form_1 .last .mailpoet_paragraph:last-child {margin-bottom: 0}}  @media (max-width: 500px) {#mailpoet_form_1 .mailpoet_form_column:last-child .mailpoet_paragraph:last-child {margin-bottom: 0}} </style>
+    <form target="_self" method="post" action="./wp-admin/admin-post.php?action=mailpoet_subscription_form" class="mailpoet_form mailpoet_form_form mailpoet_form_shortcode" novalidate data-delay="" data-exit-intent-enabled="" data-font-family="">
+      <input type="hidden" name="data[form_id]" value="1">
+      <input type="hidden" name="token" value="a2172414c6">
+      <input type="hidden" name="api_version" value="v1">
+      <input type="hidden" name="endpoint" value="subscribers">
+      <input type="hidden" name="mailpoet_method" value="subscribe">
+
+      <label class="mailpoet_hp_email_label">Please leave this field empty<input type="email" name="data[email]"></label><div class="mailpoet_form_columns mailpoet_paragraph" style="color:;background:;"><div class="mailpoet_form_column" style="flex-basis:50%;"></div>
+<div class="mailpoet_form_column" style="flex-basis:50%;"></div>
+</div>
+<div class="mailpoet_form_columns mailpoet_paragraph" style="color:;background:;"><div class="mailpoet_form_column" style="flex-basis:66.66%;"><div class="mailpoet_paragraph"><style>input[name="data[form_field_YTgyNTgzNGQ5MzVkX2VtYWls]"]::placeholder{color:#000000;opacity: 1;}</style><input type="email" class="mailpoet_text" name="data[form_field_YTgyNTgzNGQ5MzVkX2VtYWls]" title="Your best email" value="" style="width:100%;background-color:#ffffff;border-style:solid;border-radius:6px !important;border-width:0px;border-color:#313131;padding:12px;margin: 0 auto 0 0;font-family:'Montserrat';font-size:20px;line-height:1.5;height:auto;color:#000000;" data-automation-id="form_email" placeholder="Your best email *" data-parsley-required="true" data-parsley-minlength="6" data-parsley-maxlength="150" data-parsley-error-message="Please specify a valid email address." data-parsley-required-message="This field is required."></div>
+</div>
+<div class="mailpoet_form_column" style="flex-basis:33.33%;"><div class="mailpoet_paragraph"><input type="submit" class="mailpoet_submit" value="Subscribe!" data-automation-id="subscribe-submit-button" style="background-color:#ffffff;border-style:solid;border-radius:7px !important;border-width:1px;border-color:#ffffff;padding:12px;margin: 0 auto 0 0;font-family:'Montserrat';font-size:20px;line-height:1.5;height:auto;color:#f96646;"><span class="mailpoet_form_loading"><span class="mailpoet_bounce1"></span><span class="mailpoet_bounce2"></span><span class="mailpoet_bounce3"></span></span></div>
+</div>
+</div>
+
+      <div class="mailpoet_message">
+        <p class="mailpoet_validate_success" style="display:none;">Thank you for your interest :D
+We will be in touch
+        </p>
+        <p class="mailpoet_validate_error" style="display:none;">        </p>
+      </div>
+    </form>
+  </div>
+
+  </div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-87c9a51 elementor-hidden-phone elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="87c9a51" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c55cbfa" data-id="c55cbfa" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-a7953fc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a7953fc" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-51b3013" data-id="51b3013" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-3de7989 elementor-widget elementor-widget-image" data-id="3de7989" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="986" height="1024" src="./wp-content/uploads/2020/10/ilustrasite-986x1024.png" class="attachment-large size-large" alt="" loading="lazy" srcset="./wp-content/uploads/2020/10/ilustrasite-986x1024.png 986w,./wp-content/uploads/2020/10/ilustrasite-289x300.png 289w,./wp-content/uploads/2020/10/ilustrasite-768x798.png 768w,./wp-content/uploads/2020/10/ilustrasite-1479x1536.png 1479w,./wp-content/uploads/2020/10/ilustrasite-1972x2048.png 1972w" sizes="(max-width: 986px) 100vw, 986px">											</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-498b8a5" data-id="498b8a5" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-84822cd elementor-widget elementor-widget-text-editor" data-id="84822cd" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>STRETCH APP</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4ce6990 elementor-widget elementor-widget-text-editor" data-id="4ce6990" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>DON&#8217;T WORRY<br>WE&#8217;VE GOT YOUR BACK</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-edca884 elementor-widget elementor-widget-text-editor" data-id="edca884" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><strong>Flexibe</strong> is the perfect app for those who feel body pains caused by work. With stretch sessions and break alerts we are going to fix your pain!</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-3055d7c elementor-widget elementor-widget-shortcode" data-id="3055d7c" data-element_type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-shortcode">  
+  
+  <div class="mailpoet_form_popup_overlay"></div>
+  <div id="mailpoet_form_1" class="mailpoet_form mailpoet_form_shortcode mailpoet_form_position_ mailpoet_form_animation_">
+        <style type="text/css">.mailpoet_hp_email_label{display:none!important;}#mailpoet_form_1 .mailpoet_form {  }
+#mailpoet_form_1 .mailpoet_column_with_background { padding: 10px; }
+#mailpoet_form_1 .mailpoet_form_column:not(:first-child) { margin-left: 20px; }
+#mailpoet_form_1 .mailpoet_paragraph { line-height: 20px; margin-bottom: 20px; }
+#mailpoet_form_1 .mailpoet_segment_label, #mailpoet_form_1 .mailpoet_text_label, #mailpoet_form_1 .mailpoet_textarea_label, #mailpoet_form_1 .mailpoet_select_label, #mailpoet_form_1 .mailpoet_radio_label, #mailpoet_form_1 .mailpoet_checkbox_label, #mailpoet_form_1 .mailpoet_list_label, #mailpoet_form_1 .mailpoet_date_label { display: block; font-weight: normal; }
+#mailpoet_form_1 .mailpoet_text, #mailpoet_form_1 .mailpoet_textarea, #mailpoet_form_1 .mailpoet_select, #mailpoet_form_1 .mailpoet_date_month, #mailpoet_form_1 .mailpoet_date_day, #mailpoet_form_1 .mailpoet_date_year, #mailpoet_form_1 .mailpoet_date { display: block; }
+#mailpoet_form_1 .mailpoet_text, #mailpoet_form_1 .mailpoet_textarea { width: 200px; }
+#mailpoet_form_1 .mailpoet_checkbox {  }
+#mailpoet_form_1 .mailpoet_submit {  }
+#mailpoet_form_1 .mailpoet_divider {  }
+#mailpoet_form_1 .mailpoet_message {  }
+#mailpoet_form_1 .mailpoet_form_loading { width: 30px; text-align: center; line-height: normal; }
+#mailpoet_form_1 .mailpoet_form_loading > span { width: 5px; height: 5px; background-color: #5b5b5b; }#mailpoet_form_1{border: 0px solid #ffffff;border-radius: 10px;color: #000000;text-align: left;}#mailpoet_form_1 form.mailpoet_form {padding: 0px;}#mailpoet_form_1{width: 100%;}#mailpoet_form_1 .mailpoet_message {margin: 0; padding: 0 20px;}
+        #mailpoet_form_1 .mailpoet_validate_success {color: #7bdcb5}
+        #mailpoet_form_1 input.parsley-success {color: #7bdcb5}
+        #mailpoet_form_1 select.parsley-success {color: #7bdcb5}
+        #mailpoet_form_1 textarea.parsley-success {color: #7bdcb5}
+      #mailpoet_form_1 .mailpoet_paragraph.last {margin-bottom: 0} @media (max-width: 500px) {#mailpoet_form_1 {background-image: none;}} @media (min-width: 500px) {#mailpoet_form_1 .last .mailpoet_paragraph:last-child {margin-bottom: 0}}  @media (max-width: 500px) {#mailpoet_form_1 .mailpoet_form_column:last-child .mailpoet_paragraph:last-child {margin-bottom: 0}} </style>
+    <form target="_self" method="post" action="./wp-admin/admin-post.php?action=mailpoet_subscription_form" class="mailpoet_form mailpoet_form_form mailpoet_form_shortcode" novalidate data-delay="" data-exit-intent-enabled="" data-font-family="">
+      <input type="hidden" name="data[form_id]" value="1">
+      <input type="hidden" name="token" value="a2172414c6">
+      <input type="hidden" name="api_version" value="v1">
+      <input type="hidden" name="endpoint" value="subscribers">
+      <input type="hidden" name="mailpoet_method" value="subscribe">
+
+      <label class="mailpoet_hp_email_label">Please leave this field empty<input type="email" name="data[email]"></label><div class="mailpoet_form_columns mailpoet_paragraph" style="color:;background:;"><div class="mailpoet_form_column" style="flex-basis:50%;"></div>
+<div class="mailpoet_form_column" style="flex-basis:50%;"></div>
+</div>
+<div class="mailpoet_form_columns mailpoet_paragraph" style="color:;background:;"><div class="mailpoet_form_column" style="flex-basis:66.66%;"><div class="mailpoet_paragraph"><style>input[name="data[form_field_YTgyNTgzNGQ5MzVkX2VtYWls]"]::placeholder{color:#000000;opacity: 1;}</style><input type="email" class="mailpoet_text" name="data[form_field_YTgyNTgzNGQ5MzVkX2VtYWls]" title="Your best email" value="" style="width:100%;background-color:#ffffff;border-style:solid;border-radius:6px !important;border-width:0px;border-color:#313131;padding:12px;margin: 0 auto 0 0;font-family:'Montserrat';font-size:20px;line-height:1.5;height:auto;color:#000000;" data-automation-id="form_email" placeholder="Your best email *" data-parsley-required="true" data-parsley-minlength="6" data-parsley-maxlength="150" data-parsley-error-message="Please specify a valid email address." data-parsley-required-message="This field is required."></div>
+</div>
+<div class="mailpoet_form_column" style="flex-basis:33.33%;"><div class="mailpoet_paragraph"><input type="submit" class="mailpoet_submit" value="Subscribe!" data-automation-id="subscribe-submit-button" style="background-color:#ffffff;border-style:solid;border-radius:7px !important;border-width:1px;border-color:#ffffff;padding:12px;margin: 0 auto 0 0;font-family:'Montserrat';font-size:20px;line-height:1.5;height:auto;color:#f96646;"><span class="mailpoet_form_loading"><span class="mailpoet_bounce1"></span><span class="mailpoet_bounce2"></span><span class="mailpoet_bounce3"></span></span></div>
+</div>
+</div>
+
+      <div class="mailpoet_message">
+        <p class="mailpoet_validate_success" style="display:none;">Thank you for your interest :D
+We will be in touch
+        </p>
+        <p class="mailpoet_validate_error" style="display:none;">        </p>
+      </div>
+    </form>
+  </div>
+
+  </div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-ed9b572 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ed9b572" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c586576" data-id="c586576" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-70e52cb elementor-widget elementor-widget-text-editor" data-id="70e52cb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Want to get more advice for your ergonomic life?<br>Follow us on Instagram to stay connected</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-5bf0d99 elementor-widget elementor-widget-text-editor" data-id="5bf0d99" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>@flexibe.app</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-ef9cab8 elementor-widget elementor-widget-text-editor" data-id="ef9cab8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Thank you :)</p></div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-664f65d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="664f65d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-b34f24c" data-id="b34f24c" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-233f33a elementor-widget elementor-widget-text-editor" data-id="233f33a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span style="white-space: pre-wrap;">Want to talk to us?</span></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-0147396 elementor-widget elementor-widget-text-editor" data-id="0147396" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><a href="./cdn-cgi/l/email-protection/index.html" class="__cf_email__" data-cfemail="3b5854554f5a584f7b5d575e4352595e155a4b4b">[email&#160;protected]</a></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-a888ca1" data-id="a888ca1" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1d83253 elementor-widget elementor-widget-text-editor" data-id="1d83253" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Want to partner with us?</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-3827db1 elementor-widget elementor-widget-text-editor" data-id="3827db1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><a href="./cdn-cgi/l/email-protection/index.html" class="__cf_email__" data-cfemail="274448495346445367414b425f4e454209465757">[email&#160;protected]</a></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-2c5bc26" data-id="2c5bc26" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-a7f3211 elementor-widget elementor-widget-text-editor" data-id="a7f3211" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span style="white-space: pre-wrap;">@2020 <strong>Flexibe</strong></span></p></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		</main>
+
+
+<footer class="site-footer" id="site-footer">
+	<div class="hfg_footer">
+			</div>
+</footer>
+
+</div>
+<div id="fb-pxl-ajax-code"></div><link rel="stylesheet" id="mailpoet_public-css" href="./wp-content/plugins/mailpoet/assets/dist/css/mailpoet-public.dd713c66.css?ver=5.5.3" type="text/css" media="all">
+<link rel="stylesheet" id="mailpoet_custom_fonts_css-css" href="//fonts.googleapis.com/css?family=Abril+FatFace%3A400%2C400i%2C700%2C700i%7CAlegreya%3A400%2C400i%2C700%2C700i%7CAlegreya+Sans%3A400%2C400i%2C700%2C700i%7CAmatic+SC%3A400%2C400i%2C700%2C700i%7CAnonymous+Pro%3A400%2C400i%2C700%2C700i%7CArchitects+Daughter%3A400%2C400i%2C700%2C700i%7CArchivo%3A400%2C400i%2C700%2C700i%7CArchivo+Narrow%3A400%2C400i%2C700%2C700i%7CAsap%3A400%2C400i%2C700%2C700i%7CBarlow%3A400%2C400i%2C700%2C700i%7CBioRhyme%3A400%2C400i%2C700%2C700i%7CBonbon%3A400%2C400i%2C700%2C700i%7CCabin%3A400%2C400i%2C700%2C700i%7CCairo%3A400%2C400i%2C700%2C700i%7CCardo%3A400%2C400i%2C700%2C700i%7CChivo%3A400%2C400i%2C700%2C700i%7CConcert+One%3A400%2C400i%2C700%2C700i%7CCormorant%3A400%2C400i%2C700%2C700i%7CCrimson+Text%3A400%2C400i%2C700%2C700i%7CEczar%3A400%2C400i%2C700%2C700i%7CExo+2%3A400%2C400i%2C700%2C700i%7CFira+Sans%3A400%2C400i%2C700%2C700i%7CFjalla+One%3A400%2C400i%2C700%2C700i%7CFrank+Ruhl+Libre%3A400%2C400i%2C700%2C700i%7CGreat+Vibes%3A400%2C400i%2C700%2C700i%7CHeebo%3A400%2C400i%2C700%2C700i%7CIBM+Plex%3A400%2C400i%2C700%2C700i%7CInconsolata%3A400%2C400i%2C700%2C700i%7CIndie+Flower%3A400%2C400i%2C700%2C700i%7CInknut+Antiqua%3A400%2C400i%2C700%2C700i%7CInter%3A400%2C400i%2C700%2C700i%7CKarla%3A400%2C400i%2C700%2C700i%7CLibre+Baskerville%3A400%2C400i%2C700%2C700i%7CLibre+Franklin%3A400%2C400i%2C700%2C700i%7CMontserrat%3A400%2C400i%2C700%2C700i%7CNeuton%3A400%2C400i%2C700%2C700i%7CNotable%3A400%2C400i%2C700%2C700i%7CNothing+You+Could+Do%3A400%2C400i%2C700%2C700i%7CNoto+Sans%3A400%2C400i%2C700%2C700i%7CNunito%3A400%2C400i%2C700%2C700i%7COld+Standard+TT%3A400%2C400i%2C700%2C700i%7COxygen%3A400%2C400i%2C700%2C700i%7CPacifico%3A400%2C400i%2C700%2C700i%7CPoppins%3A400%2C400i%2C700%2C700i%7CProza+Libre%3A400%2C400i%2C700%2C700i%7CPT+Sans%3A400%2C400i%2C700%2C700i%7CPT+Serif%3A400%2C400i%2C700%2C700i%7CRakkas%3A400%2C400i%2C700%2C700i%7CReenie+Beanie%3A400%2C400i%2C700%2C700i%7CRoboto+Slab%3A400%2C400i%2C700%2C700i%7CRopa+Sans%3A400%2C400i%2C700%2C700i%7CRubik%3A400%2C400i%2C700%2C700i%7CShadows+Into+Light%3A400%2C400i%2C700%2C700i%7CSpace+Mono%3A400%2C400i%2C700%2C700i%7CSpectral%3A400%2C400i%2C700%2C700i%7CSue+Ellen+Francisco%3A400%2C400i%2C700%2C700i%7CTitillium+Web%3A400%2C400i%2C700%2C700i%7CUbuntu%3A400%2C400i%2C700%2C700i%7CVarela%3A400%2C400i%2C700%2C700i%7CVollkorn%3A400%2C400i%2C700%2C700i%7CWork+Sans%3A400%2C400i%2C700%2C700i%7CYatra+One%3A400%2C400i%2C700%2C700i&#038;ver=5.5.3" type="text/css" media="all">
+<script data-cfasync="false" src="./cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="./wp-content/plugins/beautiful-and-responsive-cookie-consent/public/cookieNSCconsent.min.js?ver=6" id="nsc_bar_nice-cookie-consent_js-js"></script>
+<script type="text/javascript" id="neve-script-js-extra">
+/* <![CDATA[ */
+var NeveProperties = {"ajaxurl":".\/wp-admin\/admin-ajax.php","nonce":"29c65ff38f","isRTL":"","isCustomize":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./wp-content/themes/neve/assets/js/build/modern/frontend.js?ver=2.8.3" id="neve-script-js" async></script>
+<script type="text/javascript" src="./wp-includes/js/comment-reply.min.js?ver=5.5.3" id="comment-reply-js"></script>
+<script type="text/javascript" src="./wp-includes/js/wp-embed.min.js?ver=5.5.3" id="wp-embed-js"></script>
+<script type="text/javascript" src="./wp-includes/js/jquery/jquery.js?ver=1.12.4-wp" id="jquery-core-js"></script>
+<script type="text/javascript" id="mailpoet_public-js-extra">
+/* <![CDATA[ */
+var MailPoetForm = {"ajax_url":".\/wp-admin\/admin-ajax.php","is_rtl":""};
+var MailPoetForm = {"ajax_url":".\/wp-admin\/admin-ajax.php","is_rtl":""};
+var MailPoetForm = {"ajax_url":".\/wp-admin\/admin-ajax.php","is_rtl":""};
+var MailPoetForm = {"ajax_url":".\/wp-admin\/admin-ajax.php","is_rtl":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./wp-content/plugins/mailpoet/assets/dist/js/public.27bd06f0.js?ver=3.56.2" id="mailpoet_public-js"></script>
+<script type="text/javascript" id="mailpoet_public-js-after">
+function initMailpoetTranslation() {
+  if (typeof MailPoet !== 'undefined') {
+    MailPoet.I18n.add('ajaxFailedErrorMessage', 'An error has happened while performing a request, please try again later.')
+  } else {
+    setTimeout(initMailpoetTranslation, 250);
+  }
+}
+setTimeout(initMailpoetTranslation, 250);
+function initMailpoetTranslation() {
+  if (typeof MailPoet !== 'undefined') {
+    MailPoet.I18n.add('ajaxFailedErrorMessage', 'An error has happened while performing a request, please try again later.')
+  } else {
+    setTimeout(initMailpoetTranslation, 250);
+  }
+}
+setTimeout(initMailpoetTranslation, 250);
+function initMailpoetTranslation() {
+  if (typeof MailPoet !== 'undefined') {
+    MailPoet.I18n.add('ajaxFailedErrorMessage', 'An error has happened while performing a request, please try again later.')
+  } else {
+    setTimeout(initMailpoetTranslation, 250);
+  }
+}
+setTimeout(initMailpoetTranslation, 250);
+function initMailpoetTranslation() {
+  if (typeof MailPoet !== 'undefined') {
+    MailPoet.I18n.add('ajaxFailedErrorMessage', 'An error has happened while performing a request, please try again later.')
+  } else {
+    setTimeout(initMailpoetTranslation, 250);
+  }
+}
+setTimeout(initMailpoetTranslation, 250);
+</script>
+<script type="text/javascript" id="aepc-pixel-events-js-extra">
+/* <![CDATA[ */
+var aepc_pixel_events = {"custom_events":{"AdvancedEvents":[{"params":{"login_status":"not_logged_in","post_type":"page","object_id":"5","object_type":"home"},"delay":0}]}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./wp-content/plugins/pixel-caffeine/build/frontend.js?ver=2.1.4" id="aepc-pixel-events-js"></script>
+<script type="text/javascript" src="./wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.0.15" id="elementor-frontend-modules-js"></script>
+<script type="text/javascript" src="./wp-includes/js/jquery/ui/position.min.js?ver=1.11.4" id="jquery-ui-position-js"></script>
+<script type="text/javascript" src="./wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1" id="elementor-dialog-js"></script>
+<script type="text/javascript" src="./wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+<script type="text/javascript" src="./wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6" id="swiper-js"></script>
+<script type="text/javascript" src="./wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.0.15" id="share-link-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"3.0.15","is_static":false,"legacyMode":{"elementWrappers":true},"urls":{"assets":".\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":5,"title":"Flexibe%20app%20%E2%80%93%20We%27ve%20got%20your%20back","excerpt":"","featuredImage":false}};
+</script>
+<script type="text/javascript" src="./wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.0.15" id="elementor-frontend-js"></script>
+<script>window.addEventListener("load", function(){window.cookieconsent.initialise({
+    "content": {
+        "deny": "Deny",
+        "dismiss": "Got it",
+        "allow": "Allow",
+        "link": "Learn more",
+        "href": ".\/policy-privacy\/",
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "savesettings": "Save Settings"
+    },
+    "type": "info",
+    "palette": {
+        "popup": {
+            "background": "#1A1A1A",
+            "text": "#fff"
+        },
+        "button": {
+            "background": "#fff",
+            "text": "#1A1A1A",
+            "border": ""
+        },
+        "switches": {
+            "background": "",
+            "backgroundChecked": "",
+            "switch": "",
+            "text": ""
+        }
+    },
+    "position": "bottom",
+    "theme": "classic",
+    "cookietypes": [
+        {
+            "label": "Technical",
+            "checked": "checked",
+            "disabled": "disabled",
+            "cookie_suffix": "tech"
+        },
+        {
+            "label": "Marketing",
+            "checked": "",
+            "disabled": "",
+            "cookie_suffix": "marketing"
+        }
+    ],
+    "revokable": true,
+    "dataLayerName": "dataLayer",
+    "customizedFont": ""
+})});</script>
+</body>
+
 </html>
